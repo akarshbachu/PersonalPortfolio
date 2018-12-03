@@ -1,0 +1,84 @@
+
+*{
+    font-family: Berlin Sans FB;
+    margin: 0;
+    padding: 0;
+}
+.nav-link .navbar-brand{
+    color: white !important;
+}
+.navbar-brand{
+    font-size: 1.5vw;
+}
+
+.jumbotron {
+    background-image: url("imgs/work.jpeg");
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding: 7rem 0;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: bottom center;
+
+}
+
+.jumbotronBottom {
+    background-image: url("imgs/work.jpeg");
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding: 7rem 0;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    min-height: 30vh;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+
+/*.jumbotron {
+    text-align: center;
+    color: #fff;
+    background: url(http://akapribot.appspot.com/aks/img/pics/bg-collage.jpg);
+    background-attachment: fixed
+}*/
+
+.masterInfo {
+    /*background-color: rgba(0,0,0,0.5);*/
+    background-color: rgba(255,255,255,0.5);
+    padding: 2rem;
+    text-align:center;
+    
+    min-height:30vh;
+    min-width:40vw;
+    margin-top:25vh;
+    padding-top:5%;
+    position:center;
+}
+
+.table {
+    border-radius: 5px;
+    width: 50%;
+    margin: 0px auto;
+    float: none;
+}
+.parallax {
+    /* The image used */
+    background-image: url("imgs/work.jpeg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 auto;
+}
+
+
+
